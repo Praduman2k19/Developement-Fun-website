@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+
+    <!-- <a href="index.html#header"><input type="button" value="go to next page" ></a> -->
+
+
+
+    <div class="body">
+      <div id="main_div">
+      <div  class="tablink1" onclick="fun1();" >Login</div>
+      <div class="tablink2" onclick="fun2();" >Sign Up</div>
+    
+
+      <!-- login part -->
+
+      <div id="login" class="tab">
+      <div id="img_div"><img src="login_image.png"><br><br></div>
+      <form>
+        <div class="input_box">
+          <input class="login_input" type="email" required>
+          <label for="">enter your gmail</label>
+        </div>
+        <div class="input_box">
+           <input class="login_input" type="password" required>
+           <label for="">passward</label>
+        </div>
+        <a href=""> <input  class="login_button" type="submit" value="Login"></a>
+        <input class="login_input" type="checkbox"><div id="remember">Remember me</div> <br>
+        <input id="clear_button1" type="button" value="Clear" >
+        <span id="forgetpass">Forget <a href="#"> &nbsp;Password&nbsp; </a></span>
+        </form>
+    </div>
+
+
+        <!-- signup part -->
+
+    <div id="signup" class="tab">
+    <form><br><br><br><br>
+
+      <div class="input_box">
+        <input class="input" type="text" required>
+        <label for="">full name</label>
+      </div>
+      <div class="input_box">
+        <input class="input" type="email" required>
+        <label for="">gmail</label>
+      </div>
+      <div class="input_box">
+        <input class="input" type="text" required>
+        <label for="">collage name</label>
+      </div>
+      <label for="" id="date">D.O.B : </label >
+        <input class="input" type="Date" required><br><br>
+        
+      <div style="padding: 0px;font-size: 14px; ">
+        <label for="" id="gender">Gender : </label>
+        <input class="input" name="." type="radio" >Male
+        <input class="input" name="." type="radio" >Femel
+        <input class="input" name="." type="radio" >Other
+      </div>
+      <div class="input_box">
+        <input class="input" type="password" required>
+        <label for="">passward</label>
+      </div>
+    
+      <input class="input" type="checkbox"><span id="remember">Remember me</span>
+      <input id="clear_button2" type="button" value="Clear" style="float: right;">
+      <br><br>
+      <span class="terms_privacy">You agree to our <a href="#"> Terms & Privacy</a></span>
+      
+     <a href="#"><input class="sign_signup_button" type="submit" value="Sign Up"><br></a>
+      <br><br><br>
+      </form>
+      </div>
+      
+      </div>
+
+   </div>
+    <script src="login.js" charset="utf-8"></script>
+  </body>
+</html>
+
+

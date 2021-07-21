@@ -1,0 +1,83 @@
+#heading{
+    font-size: 40pt;
+    font-weight: bolder;
+    text-align: center;
+    margin:20px  0px;
+    text-shadow: rgba(163, 23, 23, 0.658) 1px 1px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#icon_pic{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+#calculator_box{
+    width: 350px;
+    margin: auto;
+    
+}
+
+table{
+    margin: auto;
+    text-align: center;
+ 
+    transform: 2s;
+}
+
+.box {
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-size: 20px;
+    width: 65px;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.184) 1px -1px 5px, rgba(0, 0, 0, 0.184) -1px 1px 5px;
+    transition: .1s;
+}
+
+.box:hover {
+    /* transform: translate(-.3px, -.3px); */
+    box-shadow: rgba(0, 0, 0, 0.1) .5px -.5px 3px, rgba(0, 0, 0, 0.1) -.5px .5px 3px;
+}
+
+.box:active {
+    /* transform: translate(-.1px, -.1px); */
+    box-shadow: rgba(0, 0, 0, 0.284) 1px -1px 8px, rgba(0, 0, 0, 0.284) -1px 1px 8px;
+}
+input[type="text"]{
+    font-size: 20px;
+    width:320px;
+    box-shadow: white 5px 5px 10px, rgba(0, 0, 0, 0.564) -0px -2px 10px;
+    border-width: 0px;
+    padding-left: 5px;
+    margin:0px 0px 10px 0px;
+    height:40px;
+}
+#copyrite{
+    margin-top: 30px;
+    text-align: center;
+}
+#inputdesigh{
+   
+    box-shadow: rgba(0, 0, 0, 0.141) 2px 2px 1px;
+    margin-left: 11px;
+    
+    height: .1px;
+    width: 328px;
+}
+
+#inputdesigh2{
+   
+    box-shadow: rgba(0, 0, 0, 0.241) 2px 2px 5px;
+    margin-left: 11px;
+    height: .1px;
+    width: 327px;
+}
+
